@@ -11,7 +11,12 @@ function App() {
     { id: 'e5', title: 'Chair', amount: 12, date: new Date(2022, 5, 7) },
   ];
 
+  const addExpense = (expense) => {
+    console.log("in app.js")
+    console.log(expense)
+  }
   return (
+
     <div>
       <NewExpense />
       <Expenses items={expenses} />
