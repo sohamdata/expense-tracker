@@ -11,14 +11,13 @@ function App() {
     { id: 'e5', title: 'Chair', amount: 12, date: new Date(2022, 5, 7) },
   ];
 
-  const addExpense = (expense) => {
-    console.log("in app.js")
+  function addExpense(expense) {
     console.log(expense)
   }
-  return (
 
+  return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpense} />
       <Expenses items={expenses} />
     </div >
   );
