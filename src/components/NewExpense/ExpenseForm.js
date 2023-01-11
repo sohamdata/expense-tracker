@@ -30,7 +30,7 @@ function ExpenseForm(props) {
 
         props.onSaveExpenseData(expenseData)
 
-        console.log(expenseData)
+        // console.log(expenseData)
         setTitle(''); setPrice(''); setDate('');
     }
 
