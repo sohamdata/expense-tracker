@@ -8,7 +8,7 @@ const DUMMY_DATA = [
   { id: 'e2', title: 'Keyboard', price: 26, date: new Date(2021, 4, 21) },
   { id: 'e3', title: 'Monitor', price: 45, date: new Date(2020, 1, 12) },
   { id: 'e4', title: 'Mousepad', price: 12, date: new Date(2021, 6, 11) },
-  { id: 'e5', title: 'Chair', price: 122, date: new Date(2019, 5, 7) },
+  { id: 'e5', title: 'Chair', price: 122, date: new Date(2010, 5, 7) },
   { id: 'e6', title: 'Car', price: 12000, date: new Date(2022, 7, 7) },
 
 ];
