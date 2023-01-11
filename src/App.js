@@ -9,8 +9,7 @@ const DUMMY_DATA = [
   { id: 'e3', title: 'Monitor', price: 45, date: new Date(2020, 1, 12) },
   { id: 'e4', title: 'Mousepad', price: 12, date: new Date(2021, 6, 11) },
   { id: 'e5', title: 'Chair', price: 122, date: new Date(2010, 5, 7) },
-  { id: 'e6', title: 'Car', price: 12000, date: new Date(2022, 7, 7) },
-
+  { id: 'e6', title: 'Car', price: 200, date: new Date(2022, 7, 7) },
 ];
 function App() {
   const [data, setData] = useState(DUMMY_DATA)
